@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact {
+  text-align: center;
+}
+
+.social {
+  width: 400px;
+  margin: 10px auto;
+}
+
+.work h3, .work h4 {
+  text-align: center;
+}
+
+.work h4 {
+  padding-left: 16px;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.demo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+
+.card a:first-child {
+  padding-bottom: 10px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: aquamarine;
+}
+
+img.hover-shadow {
+  width: 250px;
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* @media screen and (max-width: 576px) {
+  .demo {
+    justify-content: center;
+  }
+} */
