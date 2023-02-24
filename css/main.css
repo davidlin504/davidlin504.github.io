@@ -11,6 +11,10 @@ a {
   text-align: center;
 }
 
+.information a {
+  padding: 10px;
+}
+
 .social {
   width: 400px;
   margin: 10px auto;
@@ -50,7 +54,7 @@ hr.solid {
 }
 
 .card a:hover {
-  color: aquamarine;
+  color: #ff800c;
 }
 
 img.hover-shadow {
